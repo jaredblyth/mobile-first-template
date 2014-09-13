@@ -55,7 +55,7 @@ module.exports = function (grunt) {
         autoshot: {
             dist: {
                 options: {
-                    path: '/screenshots/',
+                    path: 'screenshots/',
                     remote : {
                         files: [
                             { src: 'http://localhost:<%= connect.options.port %>', dest: 'app.jpg'}
